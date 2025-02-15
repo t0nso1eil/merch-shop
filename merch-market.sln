@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B035DCC-09F0-4922-B824-9C91F0AA0D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchShop.API", "MerchShop.API\MerchShop.API.csproj", "{5B95BF35-0764-4481-874B-8551B6ED390D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F2416FD-4488-47FF-8A33-47DC92BEEFCC}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		init-migrations.sh = init-migrations.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchShop.Application", "MerchShop.Application\MerchShop.Application.csproj", "{9EA78A30-AAD4-44EA-9E25-12FC2EDCB06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchShop.Domain", "MerchShop.Domain\MerchShop.Domain.csproj", "{67F6E795-D158-48A5-966B-E9DCE32D275D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchShop.Infrastructure", "MerchShop.Infrastructure\MerchShop.Infrastructure.csproj", "{83E1D3D2-7145-4CBD-A9C2-0E2FA500A99E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9B5435EB-9DDA-4944-B0FA-602582C4EF2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B95BF35-0764-4481-874B-8551B6ED390D} = {0B035DCC-09F0-4922-B824-9C91F0AA0D5E}
+		{9EA78A30-AAD4-44EA-9E25-12FC2EDCB06B} = {0B035DCC-09F0-4922-B824-9C91F0AA0D5E}
+		{67F6E795-D158-48A5-966B-E9DCE32D275D} = {0B035DCC-09F0-4922-B824-9C91F0AA0D5E}
+		{83E1D3D2-7145-4CBD-A9C2-0E2FA500A99E} = {0B035DCC-09F0-4922-B824-9C91F0AA0D5E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B95BF35-0764-4481-874B-8551B6ED390D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B95BF35-0764-4481-874B-8551B6ED390D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B95BF35-0764-4481-874B-8551B6ED390D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B95BF35-0764-4481-874B-8551B6ED390D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA78A30-AAD4-44EA-9E25-12FC2EDCB06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA78A30-AAD4-44EA-9E25-12FC2EDCB06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA78A30-AAD4-44EA-9E25-12FC2EDCB06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA78A30-AAD4-44EA-9E25-12FC2EDCB06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F6E795-D158-48A5-966B-E9DCE32D275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F6E795-D158-48A5-966B-E9DCE32D275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F6E795-D158-48A5-966B-E9DCE32D275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F6E795-D158-48A5-966B-E9DCE32D275D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E1D3D2-7145-4CBD-A9C2-0E2FA500A99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E1D3D2-7145-4CBD-A9C2-0E2FA500A99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E1D3D2-7145-4CBD-A9C2-0E2FA500A99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E1D3D2-7145-4CBD-A9C2-0E2FA500A99E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
