@@ -22,6 +22,9 @@ public class WalletService : IWalletService
 
         if (fromUser == null || toUser == null)
             throw new Exception("User not found.");
+        
+        if (amount <= 0)
+            throw new Exception("Amount must be greater than zero.");
 
         if (fromUser.CoinsBalance < amount)
             throw new Exception("Not enough coins.");
