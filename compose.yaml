@@ -1,6 +1,0 @@
-﻿services:
-  merchshop.api:
-    image: merchshop.api
-    build:
-      context: .
-      dockerfile: MerchShop.API/Dockerfile

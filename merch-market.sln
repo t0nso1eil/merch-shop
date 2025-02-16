@@ -7,7 +7,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F2416FD-4488-47FF-8A33-47DC92BEEFCC}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
-		init-migrations.sh = init-migrations.sh
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchShop.Application", "MerchShop.Application\MerchShop.Application.csproj", "{9EA78A30-AAD4-44EA-9E25-12FC2EDCB06B}"

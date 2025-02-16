@@ -23,6 +23,16 @@ services:
       - postgres
     ports:
       - "5008:5008"
+    command: >
+      sh -c "
+        echo 'Waiting for PostgreSQL to be ready...';
+        until pg_isready -h postgres -p 5432 -U postgres; do
+          echo 'Waiting for PostgreSQL...';
+          sleep 2;
+        done;
+        dotnet ef migrations add init --no-build || true &&
+        dotnet ef database update &&
+        dotnet run"
 
 volumes:
   postgres-data:
