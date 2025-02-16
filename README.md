@@ -37,6 +37,12 @@ cd MerchShop.API
 dotnet run
 ```
 
+Сервис станет доступен:
+
+http://localhost:5008
+
+http://localhost:5008/swagger/index.html
+
 ## API
 
 ### 1. Аутентификация
